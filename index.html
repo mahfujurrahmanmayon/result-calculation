@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center">Result Calculation</h1>
+        <form class="row">
+            <div class="col s12 m12 input-field input-player">
+              <input type="text" id="pre-result" placeholder="previous result">
+            </div>
+            <div class="col s12 m12 input-field input-player">
+              <input type="text" id="totalCgpa" placeholder="totoal CGPA">
+            </div>
+            <div class="col s12 m12 input-field input-player">
+              <input type="text" id="nscredit" placeholder="next semester credit">            
+            </div>
+            <div class="col s12 m12 input-field input-player">
+              <input type="text" id="nsresult" placeholder="next semester result">
+            </div>
+            <button id="result" class="btn btn-primary">Result</button>
+        </form>
+        <span id="display"></span>
+    </div>
+    <!-- JS -->
+    <script src="./main.js"></script>
+</body>
+</html>
